@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["CONFIG","apiKey"],"mappings":";;;;;AAGA,aAHA,QAAA,iBACA,QAAA,qBAEA,IAAMA,EAAS,CACbC,OAAQ","file":"src.b4fa4446.map","sourceRoot":"../src","sourcesContent":["import 'normalize.css';\nimport './scss/style.scss';\n\nconst CONFIG = {\n  apiKey: '0aa9c192f02ac7ffe6e008631edfb04e'\n}\n"]}

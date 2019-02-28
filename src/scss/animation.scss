@@ -1,3 +1,35 @@
+.animation-item {
+  visibility: inherit;
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 39);
+
+}
+
+.mandarin {
+  bottom: -100px;
+  right: 180px;
+}
+
+.animation-item .animation-image {
+
+  -webkit-transition: -webkit-transform 1.5s ease-out;
+  -moz-transition: transform 1.5s ease-out, -moz-transform 1.5s ease-out;
+  transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out, -moz-transform 1.5s ease-out, -o-transform 1.5s ease-out;
+  
+
+    -webkit-transition: -webkit-transform 1.5s ease-out;
+    transition: -webkit-transform 1.5s ease-out;
+    -o-transition: -o-transform 1.5s ease-out;
+    -moz-transition: transform 1.5s ease-out, -moz-transform 1.5s ease-out;
+    transition: transform 1.5s ease-out;
+    transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out, -moz-transform 1.5s ease-out, -o-transform 1.5s ease-out;
+    
+
+  
+}
+
+
+
 .m-circle--200 {
 
   width: 8.5rem;

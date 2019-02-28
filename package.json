@@ -7,6 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.4.9",
+    "cssnano": "^4.1.10",
     "normalize.css": "^8.0.1",
     "sass": "^1.17.2"
   },
