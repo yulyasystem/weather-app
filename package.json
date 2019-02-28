@@ -1,0 +1,16 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yulyasystem/weather-app.git",
+  "author": "yulyasystem <yulyasystem@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.4.9",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.17.2"
+  },
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather for Cats</title>
+</head>
+
+<body>
+  <div class="flex-wrapper">
+    <header class="header">
+      <h1 class="header-heading">Weather for Cats</h1>
+      <img src="./img/logo.png" alt="cat logo" class="header-logo">
+    </header>
+
+    <section class="search-section">
+      <input type="search" name="search" id="search" class="input-search" results="5" placeholder="Enter the city ..." />
+    </section>
+
+    <div class="weather-card">
+      <img src="./img/kitty.svg" alt="cat picture" class="card-image">
+      <div class="weather-info">
+        <p class="date"> March 1</p>
+        <p class="city"> Kyiv, UA</p>
+        <div class="degree-info">
+          23 °C
+          <button class="degree-switch">°F</button>
+        </div>
+        <img src="./img/sun1.svg" alt="weather-icon" class="weather-icon">
+        <div class="weather-additional">
+          <p class="weather-item wind">Wind</p>
+          <p class="weather-item humidity">Humidity</p>
+          <p class="weather-item preassure">Preassure</p>
+          <p class="weather-item wind-value">4 m/s</p>
+          <p class="weather-item">73%</p>
+          <p class="weather-item">324 mmHg</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="weather-card-week">
+      <img src="./img/smile.svg" alt="cat picture" class="week-card-image">
+      <div class="weather-table">
+        <div class="week-item">MON</div>
+        <div class="week-item">TUE</div>
+        <div class="week-item">WED</div>
+        <div class="week-item">THU</div>
+        <div class="week-item">FRI</div>
+        <img src="./img/snow.svg" alt="weather picture" class="week-icon">
+        <img src="./img/cloudy.svg" alt="weather picture" class="week-icon">
+        <img src="./img/snow&sun.svg" alt="weather picture" class="week-icon">
+        <img src="./img/snow.svg" alt="weather picture" class="week-icon">
+        <img src="./img/cloudy.svg" alt="weather picture" class="week-icon">
+        <div class="week-degree">25°</div>
+        <div class="week-degree">24°</div>
+        <div class="week-degree">20°</div>
+        <div class="week-degree">15°</div>
+        <div class="week-degree">26°</div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+<div class="m-circle m-circle--x1 m-circle--orange m-circle--200" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+  <div></div>
+</div>
+</html>
