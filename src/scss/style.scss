@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Inter';
+  overflow: hidden;
   
 }
 p{
@@ -62,9 +63,17 @@ p{
 .search-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 12px;
 }
 
+.star-image{
+  width: 34px;
+  height: 34px;
+  padding-top: 8px;
+  margin-left: 15px;
+  
+}
 
 
 

@@ -1,84 +1,39 @@
-.animation-item {
-  visibility: inherit;
+.circle {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
   opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 39);
-
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.mandarin {
-  bottom: -100px;
-  right: 180px;
-}
-
-.animation-item .animation-image {
-
-  -webkit-transition: -webkit-transform 1.5s ease-out;
-  -moz-transition: transform 1.5s ease-out, -moz-transform 1.5s ease-out;
-  transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out, -moz-transform 1.5s ease-out, -o-transform 1.5s ease-out;
-  
-
-    -webkit-transition: -webkit-transform 1.5s ease-out;
-    transition: -webkit-transform 1.5s ease-out;
-    -o-transition: -o-transform 1.5s ease-out;
-    -moz-transition: transform 1.5s ease-out, -moz-transform 1.5s ease-out;
-    transition: transform 1.5s ease-out;
-    transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out, -moz-transform 1.5s ease-out, -o-transform 1.5s ease-out;
-    
-
-  
-}
-
-
-
-.m-circle--200 {
-
-  width: 8.5rem;
-  height: 8.5rem;
-}
-
-.m-circle--orange {
-
+.circle-orange {
+  width: 14.5rem;
+  height: 14.5rem;
   background-image: -webkit-linear-gradient(330deg, #f6d365 0, #fda085 100%);
   background-image: -o-linear-gradient(330deg, #f6d365 0, #fda085 100%);
   background-image: linear-gradient(120deg, #f6d365 0, #fda085 100%);
 
 }
 
-.m-circle--x1 {
+.circle-x1 {
+  top: -18%;
+  right: 5%;
+  -webkit-animation: morph 8s ease-in-out infinite alternate;
+  animation: morph 8s ease-in-out infinite alternate;
 
-  top: 19%;
-  right: 15%;
-  -webkit-animation: morph 8s ease infinite alternate;
-  animation: morph 5s ease infinite alternate;
+  transform: translateY(30px);
+  animation-delay: 1ms;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 
-}
-
-.m-circle {
-
-  position: absolute;
-  z-index: 1;
-  -webkit-transform: scale(0.5);
-  -ms-transform: scale(0.5);
-  transform: scale(0.5);
-  opacity: 0;
+  -webkit-animation: morph 6s ease infinite alternate;
+  -moz-animation: morph 6s ease infinite alternate;
+  animation: morph 6s ease infinite alternate;
 
 }
 
-.m-circle--x1 {
-
-  top: 19%;
-  right: 15%;
-  -webkit-animation: morph 8s ease infinite alternate;
-  animation: morph 5s ease infinite alternate;
-
-}
-
-element {
-
-  opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-
-}
 
 @keyframes morph {
   0% {
@@ -104,4 +59,182 @@ element {
     border-radius: 60% 40% 83% 17% / 54% 29% 71% 46%;
 
   }
+}
+
+.circle-x2 {
+  top: -8%;
+  left: 5%;
+  -webkit-animation: morph3 8s ease-in-out infinite alternate;
+  animation: morph3 8s ease-in-out infinite alternate;
+
+  transform: translateY(30px);
+  animation-delay: 1ms;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+
+  -webkit-animation: morph3 5s ease infinite alternate;
+  -moz-animation: morph3 5s ease infinite alternate;
+  animation: morph3 5s ease infinite alternate;
+
+
+}
+
+.circle-green {
+  width: 8.125rem;
+  height: 8.125rem;
+  background-image: -webkit-linear-gradient(330deg, #84fab0 0, #8fd3f4 100%);
+  background-image: linear-gradient(120deg, #84fab0 0, #8fd3f4 100%);
+}
+
+
+
+
+.circle-x3 {
+  bottom: 10%;
+  left: -10%;
+  -webkit-animation: morph3 4s ease infinite alternate;
+  -moz-animation: morph3 4s ease infinite alternate;
+  animation: morph3 4s ease infinite alternate;
+
+}
+
+.circle-red {
+  width: 18.125rem;
+  height: 18.125rem;
+
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ff0844), to(#ffb199));
+  background-image: -webkit-linear-gradient(bottom, #ff0844 0, #ffb199 100%);
+  background-image: -o-linear-gradient(bottom, #ff0844 0, #ffb199 100%);
+  background-image: linear-gradient(to top, #ff0844 0, #ffb199 100%);
+
+}
+
+
+@keyframes morph3 {
+  0% {
+
+    border-radius: 36% 64% 65% 35% / 54% 68% 32% 46%;
+
+  }
+
+  100% {
+
+    border-radius: 72% 28% 38% 62% / 54% 68% 32% 46%;
+
+  }
+}
+
+.circle-x4 {
+  bottom: -5%;
+  right: -3%;
+  -webkit-animation: morph3 4s ease infinite alternate;
+  -moz-animation: morph3 4s ease infinite alternate;
+  animation: morph3 4s ease infinite alternate;
+}
+
+.circle-blue {
+  width: 15.125rem;
+  height: 15.125rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#4E5ABC), to(#5060D2));
+  background-image: -webkit-linear-gradient(bottom, #4E5ABC 0, #5060D2 100%);
+  background-image: -o-linear-gradient(bottom, #4E5ABC 0, #5060D2 100%);
+  background-image: linear-gradient(to top, #4E5ABC 0, #5060D2 100%);
+}
+
+.orange-item {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.blue-item{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+@keyframes morph2 {
+  0% {
+
+    border-radius: 67% 43% 40% 40% / 77% 65% 45% 14%;
+
+  }
+
+  100% {
+
+    border-radius: 35% 65% 38% 62% / 54% 68% 32% 46%;
+
+  }
+
+  0% {
+
+    border-radius: 67% 43% 40% 40% / 77% 65% 45% 14%;
+
+  }
+
+  100% {
+
+    border-radius: 35% 65% 38% 62% / 54% 68% 32% 46%;
+
+  }
+}
+
+.circle-x5 {
+   width: 5.125rem;
+   height: 5.125rem;
+  top: 15%;
+  right: 10%;
+  -webkit-animation: morph3 4s ease infinite alternate;
+  -moz-animation: morph3 4s ease infinite alternate;
+  animation: morph3 4s ease infinite alternate;
+}
+
+
+.circle-x6{
+  bottom: -15%;
+  left: 4%;
+  z-index: 0;
+  -webkit-animation: morph2 4s ease infinite alternate;
+  -moz-animation: morph2 4s ease infinite alternate;
+  animation: morph2 4s ease infinite alternate;
+}
+
+.circle-x7{
+  width: 12.125rem;
+  height: 12.125rem;
+  top: -5%;
+  left: -5%;
+  z-index: 0;
+  -webkit-animation: morph2 4s ease infinite alternate;
+  -moz-animation: morph2 4s ease infinite alternate;
+  animation: morph2 4s ease infinite alternate;
+}
+.circle-violet {
+  width: 14.125rem;
+  height: 14.125rem;
+
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#a18cd1), to(#fbc2eb));
+  background-image: -webkit-linear-gradient(bottom, #a18cd1 0, #fbc2eb 100%);
+  background-image: -o-linear-gradient(bottom, #a18cd1 0, #fbc2eb 100%);
+  background-image: linear-gradient(to top, #a18cd1 0, #fbc2eb 100%);
+}
+
+@keyframes morph4 {
+  0% {
+
+    border-radius: 35% 65% 38% 62% / 76% 68% 32% 24%;
+
+  }
+
+  100% {
+
+    border-radius: 84% 16% 38% 62% / 23% 68% 32% 77%;
+
+  }
+
+}
+
+.orange-item-x2{
+  position: absolute;
+  top:26%;
+  left:12%;
 }
