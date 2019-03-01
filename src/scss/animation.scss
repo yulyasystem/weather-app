@@ -99,8 +99,8 @@
 }
 
 .circle-red {
-  width: 18.125rem;
-  height: 18.125rem;
+  width: 16.125rem;
+  height: 16.125rem;
 
   background-image: -webkit-gradient(linear, left bottom, left top, from(#ff0844), to(#ffb199));
   background-image: -webkit-linear-gradient(bottom, #ff0844 0, #ffb199 100%);
@@ -190,27 +190,27 @@
 
 
 .circle-x6{
-  bottom: -15%;
-  left: 4%;
+  bottom: 8%;
+  left: 6%;
   z-index: 0;
   -webkit-animation: morph2 4s ease infinite alternate;
   -moz-animation: morph2 4s ease infinite alternate;
   animation: morph2 4s ease infinite alternate;
 }
 
-.circle-x7{
-  width: 12.125rem;
-  height: 12.125rem;
-  top: -5%;
-  left: -5%;
-  z-index: 0;
-  -webkit-animation: morph2 4s ease infinite alternate;
-  -moz-animation: morph2 4s ease infinite alternate;
-  animation: morph2 4s ease infinite alternate;
-}
+// .circle-x7{
+//   width: 12.125rem;
+//   height: 12.125rem;
+//   top: -5%;
+//   left: -5%;
+//   z-index: 0;
+//   -webkit-animation: morph2 4s ease infinite alternate;
+//   -moz-animation: morph2 4s ease infinite alternate;
+//   animation: morph2 4s ease infinite alternate;
+// }
 .circle-violet {
-  width: 14.125rem;
-  height: 14.125rem;
+  width: 8.125rem;
+  height: 8.125rem;
 
   background-image: -webkit-gradient(linear, left bottom, left top, from(#a18cd1), to(#fbc2eb));
   background-image: -webkit-linear-gradient(bottom, #a18cd1 0, #fbc2eb 100%);
